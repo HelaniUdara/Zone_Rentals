@@ -11,7 +11,7 @@ const BackgroundLayout = ({ title, children, buttonText }) => {
           <div className="bg-gray-100 bg-opacity-35 w-1/3 p-4 rounded-lg fixed">
             <h1 className="text-4xl font-bold text-white p-10 pb-0 mb-6">{title}</h1>
             <div className="divcontent">{children}</div>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg m-10">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg m-10 cursor-pointer">
               {buttonText}
             </button>
           </div>
